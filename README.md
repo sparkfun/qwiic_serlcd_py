@@ -1,7 +1,6 @@
-# SparkFun Qwiic SerLCD - Python Module
-
 ![Qwiic SerLCD Python Module](docs/images/gh-banner-py-qwiic-serlcd.png "qwiic SerLCD Python Module" )
 
+# SparkFun Qwiic SerLCD - Python Module
 
 ![Python Versions](https://img.shields.io/pypi/pyversions/sparkfun_qwiic_serlcd)
 ![GitHub issues](https://img.shields.io/github/issues/sparkfun/Qwiic_SerLCD_Py)
