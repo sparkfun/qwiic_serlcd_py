@@ -1,9 +1,6 @@
+# SparkFun Qwiic SerLCD - Python Module
 
 ![Qwiic SerLCD Python Module](docs/images/gh-banner-py-qwiic-serlcd.png "qwiic SerLCD Python Module" )
-
-# SparkFun Qwiic SerLCD Python Module
-
-A Python module for the SparkFun Qwiic SerLCD series of products. This module works with Python, MicroPython and CircuitPython.
 
 
 ![Python Versions](https://img.shields.io/pypi/pyversions/sparkfun_qwiic_serlcd)
@@ -12,13 +9,30 @@ A Python module for the SparkFun Qwiic SerLCD series of products. This module wo
 ![X](https://img.shields.io/twitter/follow/sparkfun
 )
 
-## Supported SparkFun Products
+The line of SparkFun Qwiic SerLCD products provide a simple and cost effective solution for adding a "text based" LCD display to your project. Implementing a SparkFun Qwiic interface, a SerLCD is rapidly added to any board that is part of the SparkFun Qwiic ecosystem.
+
+This repository implements a Python module for the SparkFun Qwiic SerLCD series of products. This module works with Python, MicroPython and CircuitPython.
+
+## Overview
+
+### Supported SparkFun Products
 
 This Python module supports the following SparkFun qwiic products on Python, MicroPython and Circuit python. 
 
 * [SparkFun SerLCD 16x2 - RGB Backlight (QWIIC)](https://www.sparkfun.com/products/16396)
 * [SparkFun SerLCD 16x2 - RGB Text (QWIIC)](https://www.sparkfun.com/products/16397)
 * [SparkFun SerLCD 20x2 - RGB Backlight (QWIIC)](https://www.sparkfun.com/products/16398)
+
+### Supported Platforms
+
+| Python | Platform | Boards |
+|--|--|--|
+| Python | Linux | [Raspberry Pi](https://www.sparkfun.com/raspberry-pi-5-8gb.html) , [NVIDIA Jetson Orin Nano](https://www.sparkfun.com/nvidia-jetson-orin-nano-developer-kit.html) via the [SparkFun Qwiic SHIM](https://www.sparkfun.com/sparkfun-qwiic-shim-for-raspberry-pi.html) |
+| Micro Python | Raspberry Pi - RP2, ESP32 | [SparkFun RP2040 Thing+](https://www.sparkfun.com/sparkfun-thing-plus-rp2040.html), [SparkFun RP2350 Thing+](https://www.sparkfun.com/sparkfun-thing-plus-rp2350.html), [SparkFun ESP32 Thing+](https://www.sparkfun.com/sparkfun-thing-plus-esp32-wroom-usb-c.html)
+|CircuitPython | Raspberry Pi - RP2, ESP32 | [SparkFun RP2040 Thing+](https://www.sparkfun.com/sparkfun-thing-plus-rp2040.html), [SparkFun RP2350 Thing+](https://www.sparkfun.com/sparkfun-thing-plus-rp2350.html), [SparkFun ESP32 Thing+](https://www.sparkfun.com/sparkfun-thing-plus-esp32-wroom-usb-c.html)
+
+> [!NOTE]
+> The listed supported platforms and boards are the primary platform targets tested. It is fully expected that this module will work across a wide variety of Python enabled systems. 
 
 ## Overview 
 
