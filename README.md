@@ -15,6 +15,10 @@ This repository implements a Python module for the SparkFun Qwiic SerLCD series 
 
 ## Overview
 
+This python module enables the user to access all of the features of these LCD products via a single Qwiic cable. This includes writing text to the screen, adjusting backlight levels (color), customizing splash screen and much much more. They come pre-programmed with the fully open-sourced [OpenLCD firmware](https://github.com/sparkfun/OpenLCD). All of the capabilities of these LCD screens are each demonstrated in the included examples.
+
+
+New to qwiic? Take a look at the entire [SparkFun qwiic ecosystem](https://www.sparkfun.com/qwiic).
 ### Supported SparkFun Products
 
 This Python module supports the following SparkFun qwiic products on Python, MicroPython and Circuit python. 
