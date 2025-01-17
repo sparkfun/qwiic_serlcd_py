@@ -45,14 +45,6 @@ This Python package supports the following SparkFun qwiic products on Python, Mi
 > [!NOTE]
 > The listed supported platforms and boards are the primary platform targets tested. It is fully expected that this package will work across a wide variety of Python enabled systems. 
 
-
----
----
----
-## Getting Started
-
-
-
 ## Installation 
 
 The first step to using this package is installing it on your system. The install method depends on the python platform. The following sections outline installation on Python, MicroPython and CircuitPython.
@@ -74,10 +66,12 @@ For the current user:
 ```sh
 pip install sparkfun-qwiic
 ```
-
+---
+---
 > [!CAUTION]
 > **TODO** Put together how this works with the new virtual environments used with the latest Python install
-
+---
+---
 #### Local Installation
 To install, make sure the setuptools package is installed on the system.
 
@@ -99,6 +93,8 @@ pip install sparkfun_qwiic_serlcd-<version>.tar.gz
 ### MicroPython
 
 ### CircuitPython
+
+## Getting Started 
 
 ## Examples
 
