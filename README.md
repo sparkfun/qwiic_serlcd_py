@@ -1,6 +1,6 @@
-![Qwiic SerLCD Python Module](docs/images/gh-banner-py-qwiic-serlcd.png "qwiic SerLCD Python Module" )
+![Qwiic SerLCD Python Package](docs/images/gh-banner-py-qwiic-serlcd.png "qwiic SerLCD Python Package" )
 
-# SparkFun Qwiic SerLCD - Python Module
+# SparkFun Qwiic SerLCD - Python Package
 
 ![PyPi Version](https://img.shields.io/pypi/v/sparkfun_qwiic_serlcd)
 ![GitHub issues](https://img.shields.io/github/issues/sparkfun/Qwiic_SerLCD_Py)
@@ -9,26 +9,26 @@
 
 The line of SparkFun Qwiic SerLCD products provide a simple and cost effective solution for adding a "text based" LCD display to your project. Implementing a SparkFun Qwiic interface, a SerLCD is rapidly added to any board that is part of the SparkFun Qwiic ecosystem.
 
-This repository implements a Python module for the SparkFun Qwiic SerLCD series of products. This module works with Python, MicroPython and CircuitPython.
+This repository implements a Python package for the SparkFun Qwiic SerLCD series of products. This package works with Python, MicroPython and CircuitPython.
 
 ### Contents
 
-* [About](#about-the-module)
+* [About](#about-the-package)
 * [Getting Started](#getting-started)
 * [Installation](#installation)
 * [Supported Platforms](#supported-platforms)
 * [Documentation](https://docs.sparkfun.com/Qwiic_SerLCD_Py/)
 * [Examples](#examples)
 
-## About the Module
+## About the Package
 
-This python module enables the user to access all of the features of these LCD products via a single Qwiic cable. This includes writing text to the screen, adjusting backlight levels (color), customizing splash screen and much much more. They come pre-programmed with the fully open-sourced [OpenLCD firmware](https://github.com/sparkfun/OpenLCD). All of the capabilities of these LCD screens are each demonstrated in the included examples.
+This python package enables the user to access all of the features of these LCD products via a single Qwiic cable. This includes writing text to the screen, adjusting backlight levels (color), customizing splash screen and much much more. They come pre-programmed with the fully open-sourced [OpenLCD firmware](https://github.com/sparkfun/OpenLCD). All of the capabilities of these LCD screens are each demonstrated in the included examples.
 
 
 New to qwiic? Take a look at the entire [SparkFun qwiic ecosystem](https://www.sparkfun.com/qwiic).
 ### Supported SparkFun Products
 
-This Python module supports the following SparkFun qwiic products on Python, MicroPython and Circuit python. 
+This Python package supports the following SparkFun qwiic products on Python, MicroPython and Circuit python. 
 
 * [SparkFun SerLCD 16x2 - RGB Backlight (QWIIC)](https://www.sparkfun.com/products/16396)
 * [SparkFun SerLCD 16x2 - RGB Text (QWIIC)](https://www.sparkfun.com/products/16397)
@@ -43,7 +43,7 @@ This Python module supports the following SparkFun qwiic products on Python, Mic
 |CircuitPython | Raspberry Pi - RP2, ESP32 | [SparkFun RP2040 Thing+](https://www.sparkfun.com/sparkfun-thing-plus-rp2040.html), [SparkFun RP2350 Thing+](https://www.sparkfun.com/sparkfun-thing-plus-rp2350.html), [SparkFun ESP32 Thing+](https://www.sparkfun.com/sparkfun-thing-plus-esp32-wroom-usb-c.html)
 
 > [!NOTE]
-> The listed supported platforms and boards are the primary platform targets tested. It is fully expected that this module will work across a wide variety of Python enabled systems. 
+> The listed supported platforms and boards are the primary platform targets tested. It is fully expected that this package will work across a wide variety of Python enabled systems. 
 
 
 ---
@@ -51,23 +51,34 @@ This Python module supports the following SparkFun qwiic products on Python, Mic
 ---
 ## Getting Started
 
-### Installation
 
 
-### PyPi Installation
-This repository is hosted on PyPi as the [sparkfun-qwiic-serlcd](https://pypi.org/project/sparkfun-qwiic-serlcd/) package. On systems that support PyPi installation via pip, this library is installed using the following commands
+## Installation 
+
+The first step to using this package is installing it on your system. The install method depends on the python platform. The following sections outline installation on Python, MicroPython and CircuitPython.
+
+### Python 
+
+The package is primarily installed using the `pip` command, downloading the package from the Python Index - "PyPi". Note - the below instructions outline installation an Linux-based (Raspberry Pi) system.
+
+#### PyPi Installation
+
+The SparkFun Qwiic SerLCD Python package is part of the overall SparkFun Qwiic Python package which is hosted on PyPi. On systems that support PyPi installation via pip, this library is installed using the following commands
 
 For all users (note: the user must have sudo privileges):
 ```sh
-sudo pip install sparkfun-qwiic-serlcd
+sudo pip install sparkfun-qwiic
 ```
 For the current user:
 
 ```sh
-pip install sparkfun-qwiic-serlcd
+pip install sparkfun-qwiic
 ```
 
-### Local Installation
+> [!CAUTION]
+> **TODO** Put together how this works with the new virtual environments used with the latest Python install
+
+#### Local Installation
 To install, make sure the setuptools package is installed on the system.
 
 Direct installation at the command line:
@@ -84,6 +95,10 @@ A package file is built and placed in a subdirectory called dist. This package f
 cd dist
 pip install sparkfun_qwiic_serlcd-<version>.tar.gz
 ```
+
+### MicroPython
+
+### CircuitPython
 
 ## Examples
 
