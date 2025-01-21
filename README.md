@@ -6,7 +6,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/sparkfun/Qwiic_SerLCD_Py)
 ![License](https://img.shields.io/github/license/sparkfun/Qwiic_SerLCD_Py)
 ![X](https://img.shields.io/twitter/follow/sparkfun)
-![API](https://img.shields.io/badge/API%20Reference-blue?link=https%3A%2F%2Fdocs.sparkfun.com%2Fqwiic_serlcd_py%2Fclassqwiic__serlcd_1_1_qwiic_serlcd.html)
+[![API](https://img.shields.io/badge/API%20Reference-blue)](https://docs.sparkfun.com/qwiic_serlcd_py/classqwiic__serlcd_1_1_qwiic_serlcd.html)
 
 The line of SparkFun Qwiic SerLCD products provide a simple and cost effective solution for adding a "text based" LCD display to your project. Implementing a SparkFun Qwiic interface, a SerLCD is rapidly added to any board that is part of the SparkFun Qwiic ecosystem.
 
