@@ -6,6 +6,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/sparkfun/Qwiic_SerLCD_Py)
 ![License](https://img.shields.io/github/license/sparkfun/Qwiic_SerLCD_Py)
 ![X](https://img.shields.io/twitter/follow/sparkfun)
+![API](https://img.shields.io/badge/API%20Reference-blue?link=https%3A%2F%2Fdocs.sparkfun.com%2Fqwiic_serlcd_py%2Fclassqwiic__serlcd_1_1_qwiic_serlcd.html)
 
 The line of SparkFun Qwiic SerLCD products provide a simple and cost effective solution for adding a "text based" LCD display to your project. Implementing a SparkFun Qwiic interface, a SerLCD is rapidly added to any board that is part of the SparkFun Qwiic ecosystem.
 
@@ -17,7 +18,7 @@ This repository implements a Python package for the SparkFun Qwiic SerLCD series
 * [Getting Started](#getting-started)
 * [Installation](#installation)
 * [Supported Platforms](#supported-platforms)
-* [Documentation](https://docs.sparkfun.com/Qwiic_SerLCD_Py/)
+* [Documentation](https://docs.sparkfun.com/qwiic_serlcd_py/classqwiic__serlcd_1_1_qwiic_serlcd.html)
 * [Examples](#examples)
 
 ## About the Package
@@ -90,16 +91,33 @@ cd dist
 pip install sparkfun_qwiic_serlcd-<version>.tar.gz
 ```
 
-### MicroPython
+#### MicroPython Installation
+If not already installed, follow the [instructions here](https://docs.micropython.org/en/latest/reference/mpremote.html) to install mpremote on your computer.
 
-### CircuitPython
+Connect a device with MicroPython installed to your computer and then install the package directly to your device with mpremote mip.
+```sh
+mpremote mip install github:sparkfun/qwiic_serlcd_py
+```
+
+#### CircuitPython Installation
+If not already installed, follow the [instructions here](https://docs.circuitpython.org/projects/circup/en/latest/#installation) to install CircUp on your computer.
+
+Ensure that you have the latest version of the SparkFun Qwiic CircuitPython bundle. 
+```sh
+circup bundle-add sparkfun/Qwiic_Py
+```
+
+Finally, connect a device with CircuitPython installed to your computer and then install the package directly to your device with circup.
+```sh
+circup install --py qwiic_serlcd
+```
 
 ## Getting Started 
 
 ## Examples
+Below is a quickstart program to print "Hello World!" to the Serial LCD.
 
-
-See the examples directory for more detailed use examples.
+See the examples directory for more detailed use examples and [examples/README.md](https://github.com/sparkfun/qwiic_serlcd_py/blob/main/examples/README.md) for a summary of the available examples.
 
 ```python
 from __future__ import print_function
