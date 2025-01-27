@@ -1,9 +1,22 @@
 {
     "urls": [
-      ["qwiic_serlcd.py", "github:sparkfun/Qwiic_SerLCD_Py/qwiic_serlcd.py"]
-    ],
-    "deps": [
-      ["github:sparkfun/Qwiic_I2C_Py", "master"]
+      ["qwiic_serlcd_py_examples/ex10_qwiic_serlcd_turn_off_display.py", "github:sparkfun/qwiic_serlcd_py/examples/ex10_qwiic_serlcd_turn_off_display.py"],
+      ["qwiic_serlcd_py_examples/ex11_qwiic_serlcd_text_direction.py", "github:sparkfun/qwiic_serlcd_py/examples/ex11_qwiic_serlcd_text_direction.py"],
+      ["qwiic_serlcd_py_examples/ex12_qwiic_serlcd_console_input_to_display.py", "github:sparkfun/qwiic_serlcd_py/examples/ex12_qwiic_serlcd_console_input_to_display.py"],
+      ["qwiic_serlcd_py_examples/ex13_qwiic_serlcd_fast_backlight.py", "github:sparkfun/qwiic_serlcd_py/examples/ex13_qwiic_serlcd_fast_backlight.py"],
+      ["qwiic_serlcd_py_examples/ex14_qwiic_serlcd_show_firmware_version.py", "github:sparkfun/qwiic_serlcd_py/examples/ex14_qwiic_serlcd_show_firmware_version.py"],
+      ["qwiic_serlcd_py_examples/ex15_qwiic_serlcd_message_enable.py", "github:sparkfun/qwiic_serlcd_py/examples/ex15_qwiic_serlcd_message_enable.py"],
+      ["qwiic_serlcd_py_examples/ex16_qwiic_serlcd_set_splash.py", "github:sparkfun/qwiic_serlcd_py/examples/ex16_qwiic_serlcd_set_splash.py"],
+      ["qwiic_serlcd_py_examples/ex17_qwiic_serlcd_change_i2c_address.py", "github:sparkfun/qwiic_serlcd_py/examples/ex17_qwiic_serlcd_change_i2c_address.py"],
+      ["qwiic_serlcd_py_examples/ex1_qwiic_serlcd_hello_world.py", "github:sparkfun/qwiic_serlcd_py/examples/ex1_qwiic_serlcd_hello_world.py"],
+      ["qwiic_serlcd_py_examples/ex2_qwiic_serlcd_backlight.py", "github:sparkfun/qwiic_serlcd_py/examples/ex2_qwiic_serlcd_backlight.py"],
+      ["qwiic_serlcd_py_examples/ex3_qwiic_serlcd_set_cursor_position.py", "github:sparkfun/qwiic_serlcd_py/examples/ex3_qwiic_serlcd_set_cursor_position.py"],
+      ["qwiic_serlcd_py_examples/ex4_qwiic_serlcd_move_cursor.py", "github:sparkfun/qwiic_serlcd_py/examples/ex4_qwiic_serlcd_move_cursor.py"],
+      ["qwiic_serlcd_py_examples/ex5_qwiic_serlcd_enable_cursor.py", "github:sparkfun/qwiic_serlcd_py/examples/ex5_qwiic_serlcd_enable_cursor.py"],
+      ["qwiic_serlcd_py_examples/ex6_qwiic_serlcd_blink_cursor.py", "github:sparkfun/qwiic_serlcd_py/examples/ex6_qwiic_serlcd_blink_cursor.py"],
+      ["qwiic_serlcd_py_examples/ex7_qwiic_serlcd_scroll.py", "github:sparkfun/qwiic_serlcd_py/examples/ex7_qwiic_serlcd_scroll.py"],
+      ["qwiic_serlcd_py_examples/ex8_qwiic_serlcd_autoscroll_with_text.py", "github:sparkfun/qwiic_serlcd_py/examples/ex8_qwiic_serlcd_autoscroll_with_text.py"],
+      ["qwiic_serlcd_py_examples/ex9_qwiic_serlcd_custom_character.py", "github:sparkfun/qwiic_serlcd_py/examples/ex9_qwiic_serlcd_custom_character.py"]
     ],
     "version": "0.0.1"
 }
