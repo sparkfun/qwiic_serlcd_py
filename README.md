@@ -52,43 +52,25 @@ The first step to using this package is installing it on your system. The instal
 
 ### Python 
 
-The package is primarily installed using the `pip` command, downloading the package from the Python Index - "PyPi". Note - the below instructions outline installation an Linux-based (Raspberry Pi) system.
+The package is primarily installed using the `pip3` command, downloading the package from the Python Index - "PyPi". Note - the below instructions outline installation an Linux-based (Raspberry Pi) system.
 
 #### PyPi Installation
 
-The SparkFun Qwiic SerLCD Python package is part of the overall SparkFun Qwiic Python package which is hosted on PyPi. On systems that support PyPi installation via pip, this library is installed using the following commands
+The SparkFun Qwiic SerLCD Python package is part of the overall SparkFun Qwiic Python package which is hosted on PyPi. On systems that support PyPi installation via pip, this library is installed using the following commands.
 
-For all users (note: the user must have sudo privileges):
+First, setup a virtual environment from a specific directory using venv:
 ```sh
-sudo pip install sparkfun-qwiic
+python3 -m venv path/to/venv
 ```
-For the current user:
+You can pass any path as path/to/venv, just make sure you use the same one for all future steps. For more information on venv [click here](https://docs.python.org/3/library/venv.html).
 
+Next, install the qwiic package with:
 ```sh
-pip install sparkfun-qwiic
+path/to/venv/pip3 install sparkfun-qwiic-serlcd
 ```
----
----
-> [!CAUTION]
-> **TODO** Put together how this works with the new virtual environments used with the latest Python install
----
----
-#### Local Installation
-To install, make sure the setuptools package is installed on the system.
-
-Direct installation at the command line:
+Now you should be able to run any example or custom python scripts that have `import qwiic_serlcd` by running e.g.:
 ```sh
-python setup.py install
-```
-
-To build a package for use with pip:
-```sh
-python setup.py sdist
- ```
-A package file is built and placed in a subdirectory called dist. This package file can be installed using pip.
-```sh
-cd dist
-pip install sparkfun_qwiic_serlcd-<version>.tar.gz
+path/to/venv/python3 example_script.py
 ```
 
 #### MicroPython Installation
