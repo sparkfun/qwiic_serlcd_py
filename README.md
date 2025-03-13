@@ -56,8 +56,6 @@ The package is primarily installed using the `pip3` command, downloading the pac
 
 #### PyPi Installation
 
-The SparkFun Qwiic SerLCD Python package is part of the overall SparkFun Qwiic Python package which is hosted on PyPi. On systems that support PyPi installation via pip, this library is installed using the following commands.
-
 First, setup a virtual environment from a specific directory using venv:
 ```sh
 python3 -m venv path/to/venv
@@ -66,11 +64,11 @@ You can pass any path as path/to/venv, just make sure you use the same one for a
 
 Next, install the qwiic package with:
 ```sh
-path/to/venv/pip3 install sparkfun-qwiic-serlcd
+path/to/venv/bin/pip3 install sparkfun-qwiic-serlcd
 ```
 Now you should be able to run any example or custom python scripts that have `import qwiic_serlcd` by running e.g.:
 ```sh
-path/to/venv/python3 example_script.py
+path/to/venv/bin/python3 example_script.py
 ```
 
 #### MicroPython Installation
@@ -79,6 +77,11 @@ If not already installed, follow the [instructions here](https://docs.micropytho
 Connect a device with MicroPython installed to your computer and then install the package directly to your device with mpremote mip.
 ```sh
 mpremote mip install github:sparkfun/qwiic_serlcd_py
+```
+
+If you would also like to install the examples for this repository, issue the following mip command as well:
+```sh
+mprmeote mip install github:sparkfun/qwiic_serlcd_py@examples
 ```
 
 #### CircuitPython Installation
@@ -94,7 +97,26 @@ Finally, connect a device with CircuitPython installed to your computer and then
 circup install --py qwiic_serlcd
 ```
 
-## Getting Started 
+If you would like to install any of the examples from this repository, issue the corresponding circup command from below. (NOTE: The below syntax assumes you are using CircUP on Windows. Linux and Mac will have different path seperators (i.e. "/" vs. "\"). See the [CircUp "example" command documentation](https://learn.adafruit.com/keep-your-circuitpython-libraries-on-devices-up-to-date-with-circup/example-command) for more information)
+```sh
+circup example qwiic_serlcd\ex1_qwiic_serlcd_hello_world
+circup example qwiic_serlcd\ex2_qwiic_serlcd_backlight
+circup example qwiic_serlcd\ex3_qwiic_serlcd_set_cursor_position
+circup example qwiic_serlcd\ex4_qwiic_serlcd_move_cursor
+circup example qwiic_serlcd\ex5_qwiic_serlcd_enable_cursor
+circup example qwiic_serlcd\ex6_qwiic_serlcd_blink_cursor
+circup example qwiic_serlcd\ex7_qwiic_serlcd_scroll
+circup example qwiic_serlcd\ex8_qwiic_serlcd_autoscroll_with_text
+circup example qwiic_serlcd\ex9_qwiic_serlcd_custom_character
+circup example qwiic_serlcd\ex10_qwiic_serlcd_turn_off_display
+circup example qwiic_serlcd\ex11_qwiic_serlcd_text_direction
+circup example qwiic_serlcd\ex12_qwiic_serlcd_console_input_to_display
+circup example qwiic_serlcd\ex13_qwiic_serlcd_fast_backlight
+circup example qwiic_serlcd\ex14_qwiic_serlcd_show_firmware_version
+circup example qwiic_serlcd\ex15_qwiic_serlcd_message_enable
+circup example qwiic_serlcd\ex16_qwiic_serlcd_set_splash
+circup example qwiic_serlcd\ex17_qwiic_serlcd_change_i2c_address.py
+```
 
 ## Examples
 Below is a quickstart program to print "Hello World!" to the Serial LCD.
