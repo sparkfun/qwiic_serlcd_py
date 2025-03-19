@@ -33,7 +33,7 @@ This Python package supports the following SparkFun qwiic products on Python, Mi
 
 * [SparkFun SerLCD 16x2 - RGB Backlight (QWIIC)](https://www.sparkfun.com/products/16396)
 * [SparkFun SerLCD 16x2 - RGB Text (QWIIC)](https://www.sparkfun.com/products/16397)
-* [SparkFun SerLCD 20x2 - RGB Backlight (QWIIC)](https://www.sparkfun.com/products/16398)
+* [SparkFun SerLCD 20x4 - RGB Backlight (QWIIC)](https://www.sparkfun.com/products/16398)
 
 ### Supported Platforms
 
